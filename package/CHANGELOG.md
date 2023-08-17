@@ -1,4 +1,4 @@
-## 4.2.24
+## 4.2.24+1
 - migrate to latest media_kit version.
 - Added videoOverlay to help with wrapping widget in both normal and fullScreen
 
@@ -11,8 +11,6 @@
 - fixes macos fullscreen crash
 
 ## 4.2.17
-
-- Updates to `video_player_media_kit 0.0.20`
 - migrate to wakelock_plus
 
 ## 4.2.16
