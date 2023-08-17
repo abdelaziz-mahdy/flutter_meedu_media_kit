@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_meedu_media_kit/meedu_player.dart';
-import 'package:flutter_meedu_media_kit/meedu_player.dart';
 import 'package:universal_platform/universal_platform.dart';
 
 class CustomBackgroundPage extends StatefulWidget {

@@ -346,7 +346,6 @@ class MeeduPlayerController {
     this.onVideoPlayerClosed,
     BoxFit? initialFit,
   }) : _videoFit = Rx(initialFit ?? BoxFit.fill) {
-
     if (responsive != null) {
       this.responsive = responsive;
     }
