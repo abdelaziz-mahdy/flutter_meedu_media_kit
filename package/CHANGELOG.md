@@ -1,3 +1,6 @@
+## 4.2.26
+- media_kit windows version to 1.0.6
+- media_kit linux version to 1.1.0
 ## 4.2.25
 - set media_kit to 1.1.2+1 to avoid crash on launch
 
