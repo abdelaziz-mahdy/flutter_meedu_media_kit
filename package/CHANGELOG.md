@@ -1,3 +1,6 @@
+## 4.2.25
+- set media_kit to 1.1.2+1 to avoid crash on launch
+
 ## 4.2.24+1
 - migrate to latest media_kit version.
 - Added videoOverlay to help with wrapping widget in both normal and fullScreen

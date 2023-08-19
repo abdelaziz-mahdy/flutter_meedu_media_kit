@@ -24,12 +24,17 @@ import 'package:flutter_meedu_media_kit_example/pages/player_with_header_page.da
 import 'package:flutter_meedu_media_kit_example/pages/portrait_example_page.dart';
 import 'package:flutter_meedu_media_kit_example/pages/secondary_controls.dart';
 import 'package:flutter_meedu_media_kit_example/pages/yotube_page_example.dart';
+import 'package:universal_platform/universal_platform.dart';
 
 import 'pages/auto_hidecontrol_disable.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   MediaKit.ensureInitialized();
-  await windowManager.ensureInitialized();
+  if (UniversalPlatform.isDesktop) {
+    await windowManager.ensureInitialized();
+  }
 
   runApp(const MyApp());
 }

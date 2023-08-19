@@ -1,6 +1,6 @@
 name: flutter_meedu_media_kit
 description: a controls wrapper for media_kit.
-version: 4.2.24+1
+version: 4.2.25
 homepage: "https://github.com/zezo357/flutter_meedu_media_kit"
 environment:
   sdk: ">=2.16.2 <4.0.0"
@@ -31,18 +31,19 @@ dependencies:
   # dio: ^5.0.0
   # dio_smart_retry: ^5.0.0
   path_provider: ^2.0.6
-  media_kit: ^1.1.4                              # Primary package.
-  
-  media_kit_video: ^1.1.5                        # For video rendering.
-  
+  media_kit: 1.1.2+1                              # Primary package.
+
+  media_kit_video: 1.1.2                        # For video rendering.
+      
+  media_kit_libs_android_video: 1.3.0           # Android package for video native libraries.
+
   media_kit_native_event_loop: ^1.0.7            # Support for higher number of concurrent instances & better performance.
   
-  media_kit_libs_android_video: ^1.3.2           # Android package for video native libraries.
-  media_kit_libs_ios_video: ^1.1.3               # iOS package for video native libraries.
+  # media_kit_libs_ios_video: ^1.1.3               # iOS package for video native libraries.
   media_kit_libs_macos_video: ^1.1.3             # macOS package for video native libraries.
   media_kit_libs_windows_video: ^1.0.7           # Windows package for video native libraries.
   media_kit_libs_linux: ^1.1.1                   # GNU/Linux dependency package.
-  
+
 
 
 dev_dependencies:
